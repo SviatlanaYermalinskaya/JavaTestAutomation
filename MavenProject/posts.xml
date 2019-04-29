@@ -1,0 +1,12 @@
+<posts>
+    <post>     
+      <access_token>942c59c509078e2614334eae0664a27dcecbe85589d8f5e519e968a91ac98cf3ae487966146284b8553c1</access_token>
+      <owner_id>538134391</owner_id>
+      <message>Hello! It's a test!</message>          
+    </post>
+    <post>     
+      <access_token>942c59c509078e2614334eae0664a27dcecbe85589d8f5e519e968a91ac98cf3ae487966146284b8553c1</access_token>
+      <owner_id>538134391</owner_id>
+      <message>Message is replaced.</message>          
+    </post>      
+</posts>

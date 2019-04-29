@@ -1,0 +1,186 @@
+{
+  "time" : {
+    "start" : 1556545156943,
+    "stop" : 1556545263575,
+    "duration" : 106632
+  },
+  "testSuites" : [ {
+    "uid" : "97cbf1f5c0bbce5e",
+    "name" : "Test mail.ru login",
+    "title" : "Ru login",
+    "time" : {
+      "start" : 1556545156943,
+      "stop" : 1556545198752,
+      "duration" : 41809
+    },
+    "statistic" : {
+      "total" : 6,
+      "passed" : 6,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "738a3172f03ce5f",
+      "name" : "Test login page",
+      "title" : "Test login page",
+      "time" : {
+        "start" : 1556545156943,
+        "stop" : 1556545171279,
+        "duration" : 14336
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "862497ee3a6adbee",
+      "name" : "Test login page",
+      "title" : "Test login page",
+      "time" : {
+        "start" : 1556545171292,
+        "stop" : 1556545177056,
+        "duration" : 5764
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "b18ef7e332abde8d",
+      "name" : "Test login page",
+      "title" : "Test login page",
+      "time" : {
+        "start" : 1556545177060,
+        "stop" : 1556545182847,
+        "duration" : 5787
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "2706b034b95606ba",
+      "name" : "Test login page",
+      "title" : "Test login page",
+      "time" : {
+        "start" : 1556545182851,
+        "stop" : 1556545188304,
+        "duration" : 5453
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "5d245faa210ecb18",
+      "name" : "Test login page",
+      "title" : "Test login page",
+      "time" : {
+        "start" : 1556545188308,
+        "stop" : 1556545193660,
+        "duration" : 5352
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "7cc23c675e0bf72a",
+      "name" : "Test login page",
+      "title" : "Test login page",
+      "time" : {
+        "start" : 1556545193661,
+        "stop" : 1556545198752,
+        "duration" : 5091
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "6ef79936fb212db6",
+    "name" : "Test mail.ru mail",
+    "title" : "Ru mail",
+    "time" : {
+      "start" : 1556545198982,
+      "stop" : 1556545262499,
+      "duration" : 63517
+    },
+    "statistic" : {
+      "total" : 4,
+      "passed" : 4,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "2e0cf365834d3dd",
+      "name" : "Message moving to spam and back",
+      "title" : "Message moving to spam and back",
+      "time" : {
+        "start" : 1556545198982,
+        "stop" : 1556545224666,
+        "duration" : 25684
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "5eb41abd0086de89",
+      "name" : "Check messages and uncheck all",
+      "title" : "Check messages and uncheck all",
+      "time" : {
+        "start" : 1556545224669,
+        "stop" : 1556545235983,
+        "duration" : 11314
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "7096ac9daed56b75",
+      "name" : "Send messages from messages.xml",
+      "title" : "Send messages from messages.xml",
+      "time" : {
+        "start" : 1556545235986,
+        "stop" : 1556545248820,
+        "duration" : 12834
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "a8dfd1d141b32bfd",
+      "name" : "Send messages from messages.xml",
+      "title" : "Send messages from messages.xml",
+      "time" : {
+        "start" : 1556545248823,
+        "stop" : 1556545262499,
+        "duration" : 13676
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "8981bb438c744a95",
+    "name" : "Test VK API",
+    "title" : "Test VK API",
+    "time" : {
+      "start" : 1556545262535,
+      "stop" : 1556545263575,
+      "duration" : 1040
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "135652f6b05bb985",
+      "name" : "Add, edit and delete post",
+      "title" : "Add, edit and delete post",
+      "time" : {
+        "start" : 1556545262535,
+        "stop" : 1556545263575,
+        "duration" : 1040
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

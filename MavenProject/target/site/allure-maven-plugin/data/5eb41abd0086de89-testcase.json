@@ -1,0 +1,179 @@
+{
+  "uid" : "5eb41abd0086de89",
+  "name" : "Check messages and uncheck all",
+  "title" : "Check messages and uncheck all",
+  "time" : {
+    "start" : 1556545224669,
+    "stop" : 1556545235983,
+    "duration" : 11314
+  },
+  "summary" : {
+    "attachments" : 3,
+    "steps" : 7
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "6ef79936fb212db6",
+    "name" : "Test mail.ru mail",
+    "title" : "Ru mail"
+  },
+  "steps" : [ {
+    "name" : "Given I am on main application page",
+    "title" : "Given I am on main application page",
+    "time" : {
+      "start" : 1556545224670,
+      "stop" : 1556545228222,
+      "duration" : 3552
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I login as user with login \"syermolinskaya\" and password \"ytdthjznyjtbpj,htntybt\"",
+    "title" : "When I login as user with login \"syermolinskaya\" and password \"ytdthjznyjtbpj,htntybt\"",
+    "time" : {
+      "start" : 1556545228222,
+      "stop" : 1556545229027,
+      "duration" : 805
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I see expected element with xpath \".//a[@id='PH_logoutLink']\"",
+    "title" : "Then I see expected element with xpath \".//a[@id='PH_logoutLink']\"",
+    "time" : {
+      "start" : 1556545229027,
+      "stop" : 1556545234177,
+      "duration" : 5150
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "b05bda65-2359-41d1-899e-6e835e0057d0-attachment.png",
+      "type" : "image/png",
+      "size" : 104499,
+      "uid" : "dfd1f2f5b477dc04"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I check incoming messages presence",
+    "title" : "Then I check incoming messages presence",
+    "time" : {
+      "start" : 1556545234177,
+      "stop" : 1556545234210,
+      "duration" : 33
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I check 3 messages",
+    "title" : "When I check 3 messages",
+    "time" : {
+      "start" : 1556545234210,
+      "stop" : 1556545234900,
+      "duration" : 690
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "69190851-dcf7-4576-abec-d18b9f7b4e84-attachment.png",
+      "type" : "image/png",
+      "size" : 135941,
+      "uid" : "938c8503ad29b2c2"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I uncheck all messages",
+    "title" : "And I uncheck all messages",
+    "time" : {
+      "start" : 1556545234900,
+      "stop" : 1556545235291,
+      "duration" : 391
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "f9019669-9cfe-452f-a6af-9204afefd5e6-attachment.png",
+      "type" : "image/png",
+      "size" : 135348,
+      "uid" : "45b596de30f3c3cf"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I don't see any selection",
+    "title" : "Then I don't see any selection",
+    "time" : {
+      "start" : 1556545235291,
+      "stop" : 1556545235327,
+      "duration" : 36
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Check messages and uncheck all"
+  }, {
+    "name" : "thread",
+    "value" : "19504@LAPTOP-O1540MOJ.main(1)"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-O1540MOJ"
+  }, {
+    "name" : "feature",
+    "value" : "Test mail.ru mail"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test mail.ru mail"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,209 @@
+{
+  "uid" : "2e0cf365834d3dd",
+  "name" : "Message moving to spam and back",
+  "title" : "Message moving to spam and back",
+  "time" : {
+    "start" : 1556545198982,
+    "stop" : 1556545224666,
+    "duration" : 25684
+  },
+  "summary" : {
+    "attachments" : 3,
+    "steps" : 9
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "6ef79936fb212db6",
+    "name" : "Test mail.ru mail",
+    "title" : "Ru mail"
+  },
+  "steps" : [ {
+    "name" : "Given I am on main application page",
+    "title" : "Given I am on main application page",
+    "time" : {
+      "start" : 1556545198983,
+      "stop" : 1556545202379,
+      "duration" : 3396
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I login as user with login \"syermolinskaya\" and password \"ytdthjznyjtbpj,htntybt\"",
+    "title" : "When I login as user with login \"syermolinskaya\" and password \"ytdthjznyjtbpj,htntybt\"",
+    "time" : {
+      "start" : 1556545202379,
+      "stop" : 1556545203193,
+      "duration" : 814
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I see expected element with xpath \".//a[@id='PH_logoutLink']\"",
+    "title" : "Then I see expected element with xpath \".//a[@id='PH_logoutLink']\"",
+    "time" : {
+      "start" : 1556545203194,
+      "stop" : 1556545208277,
+      "duration" : 5083
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "1208fb51-ccbf-4291-946f-5a16a97991d5-attachment.png",
+      "type" : "image/png",
+      "size" : 106073,
+      "uid" : "bc87c90571c28740"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I check incoming messages presence",
+    "title" : "Then I check incoming messages presence",
+    "time" : {
+      "start" : 1556545208277,
+      "stop" : 1556545208337,
+      "duration" : 60
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I move 1 message to spam",
+    "title" : "When I move 1 message to spam",
+    "time" : {
+      "start" : 1556545208337,
+      "stop" : 1556545208678,
+      "duration" : 341
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I see popup with confirmation",
+    "title" : "Then I see popup with confirmation",
+    "time" : {
+      "start" : 1556545208678,
+      "stop" : 1556545215769,
+      "duration" : 7091
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I go to spam",
+    "title" : "When I go to spam",
+    "time" : {
+      "start" : 1556545215770,
+      "stop" : 1556545216786,
+      "duration" : 1016
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "c0367208-703b-4b62-b1e0-1e8576036b12-attachment.png",
+      "type" : "image/png",
+      "size" : 140971,
+      "uid" : "ea71c447606c2cf5"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I move message back from spam to income",
+    "title" : "And I move message back from spam to income",
+    "time" : {
+      "start" : 1556545216787,
+      "stop" : 1556545217506,
+      "duration" : 719
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "ec54c91d-5bd1-4b1f-b300-ceaffcb8994c-attachment.png",
+      "type" : "image/png",
+      "size" : 137530,
+      "uid" : "c5895ace55ada4a7"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I see popup with confirmation",
+    "title" : "Then I see popup with confirmation",
+    "time" : {
+      "start" : 1556545217506,
+      "stop" : 1556545224016,
+      "duration" : 6510
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "19504@LAPTOP-O1540MOJ.main(1)"
+  }, {
+    "name" : "story",
+    "value" : "Message moving to spam and back"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-O1540MOJ"
+  }, {
+    "name" : "feature",
+    "value" : "Test mail.ru mail"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test mail.ru mail"
+  } ],
+  "parameters" : [ ]
+}

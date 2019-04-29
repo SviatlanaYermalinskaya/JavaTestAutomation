@@ -1,0 +1,96 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 11,
+        "passed" : 11,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "time" : {
+        "start" : 1556545156943,
+        "stop" : 1556545263575,
+        "duration" : 106632
+      }
+    },
+    "defects" : {
+      "totalCount" : 0,
+      "items" : [ ]
+    },
+    "xunit" : {
+      "totalCount" : 3,
+      "items" : [ {
+        "uid" : "97cbf1f5c0bbce5e",
+        "title" : "Ru login",
+        "statistic" : {
+          "total" : 6,
+          "passed" : 6,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "6ef79936fb212db6",
+        "title" : "Ru mail",
+        "statistic" : {
+          "total" : 4,
+          "passed" : 4,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "8981bb438c744a95",
+        "title" : "Test VK API",
+        "statistic" : {
+          "total" : 1,
+          "passed" : 1,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 3,
+      "items" : [ {
+        "title" : "Test VK API",
+        "statistic" : {
+          "total" : 1,
+          "passed" : 1,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "title" : "Test mail.ru login",
+        "statistic" : {
+          "total" : 6,
+          "passed" : 6,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "title" : "Test mail.ru mail",
+        "statistic" : {
+          "total" : 4,
+          "passed" : 4,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}

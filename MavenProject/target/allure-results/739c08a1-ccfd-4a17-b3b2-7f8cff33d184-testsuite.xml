@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1556545198982" stop="1556545262500" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Test mail.ru mail</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1556545198982" stop="1556545224666" status="passed">
+            <name>Message moving to spam and back</name>
+            <title>Message moving to spam and back</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1556545198983" stop="1556545202379" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556545202379" stop="1556545203193" status="passed">
+                    <name>When I login as user with login "syermolinskaya" and password "ytdthjznyjtbpj,htntybt"</name>
+                    <title>When I login as user with login "syermolinskaya" and password "ytdthjznyjtbpj,htntybt"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556545203194" stop="1556545208277" status="passed">
+                    <name>Then I see expected element with xpath ".//a[@id='PH_logoutLink']"</name>
+                    <title>Then I see expected element with xpath ".//a[@id='PH_logoutLink']"</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="1208fb51-ccbf-4291-946f-5a16a97991d5-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1556545208277" stop="1556545208337" status="passed">
+                    <name>Then I check incoming messages presence</name>
+                    <title>Then I check incoming messages presence</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556545208337" stop="1556545208678" status="passed">
+                    <name>When I move 1 message to spam</name>
+                    <title>When I move 1 message to spam</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556545208678" stop="1556545215769" status="passed">
+                    <name>Then I see popup with confirmation</name>
+                    <title>Then I see popup with confirmation</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556545215770" stop="1556545216786" status="passed">
+                    <name>When I go to spam</name>
+                    <title>When I go to spam</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="c0367208-703b-4b62-b1e0-1e8576036b12-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1556545216787" stop="1556545217506" status="passed">
+                    <name>And I move message back from spam to income</name>
+                    <title>And I move message back from spam to income</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="ec54c91d-5bd1-4b1f-b300-ceaffcb8994c-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1556545217506" stop="1556545224016" status="passed">
+                    <name>Then I see popup with confirmation</name>
+                    <title>Then I see popup with confirmation</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Message moving to spam and back"/>
+                <label name="feature" value="Test mail.ru mail"/>
+                <label name="host" value="LAPTOP-O1540MOJ"/>
+                <label name="thread" value="19504@LAPTOP-O1540MOJ.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1556545224669" stop="1556545235983" status="passed">
+            <name>Check messages and uncheck all</name>
+            <title>Check messages and uncheck all</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1556545224670" stop="1556545228222" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556545228222" stop="1556545229027" status="passed">
+                    <name>When I login as user with login "syermolinskaya" and password "ytdthjznyjtbpj,htntybt"</name>
+                    <title>When I login as user with login "syermolinskaya" and password "ytdthjznyjtbpj,htntybt"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556545229027" stop="1556545234177" status="passed">
+                    <name>Then I see expected element with xpath ".//a[@id='PH_logoutLink']"</name>
+                    <title>Then I see expected element with xpath ".//a[@id='PH_logoutLink']"</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="b05bda65-2359-41d1-899e-6e835e0057d0-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1556545234177" stop="1556545234210" status="passed">
+                    <name>Then I check incoming messages presence</name>
+                    <title>Then I check incoming messages presence</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556545234210" stop="1556545234900" status="passed">
+                    <name>When I check 3 messages</name>
+                    <title>When I check 3 messages</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="69190851-dcf7-4576-abec-d18b9f7b4e84-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1556545234900" stop="1556545235291" status="passed">
+                    <name>And I uncheck all messages</name>
+                    <title>And I uncheck all messages</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="f9019669-9cfe-452f-a6af-9204afefd5e6-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1556545235291" stop="1556545235327" status="passed">
+                    <name>Then I don't see any selection</name>
+                    <title>Then I don't see any selection</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Check messages and uncheck all"/>
+                <label name="feature" value="Test mail.ru mail"/>
+                <label name="host" value="LAPTOP-O1540MOJ"/>
+                <label name="thread" value="19504@LAPTOP-O1540MOJ.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1556545235986" stop="1556545248820" status="passed">
+            <name>Send messages from messages.xml</name>
+            <title>Send messages from messages.xml</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1556545236002" stop="1556545239532" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556545239532" stop="1556545240310" status="passed">
+                    <name>When I login as user with login "syermolinskaya" and password "ytdthjznyjtbpj,htntybt"</name>
+                    <title>When I login as user with login "syermolinskaya" and password "ytdthjznyjtbpj,htntybt"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556545240310" stop="1556545245420" status="passed">
+                    <name>Then I see expected element with xpath ".//a[@id='PH_logoutLink']"</name>
+                    <title>Then I see expected element with xpath ".//a[@id='PH_logoutLink']"</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="c967aede-0dfa-41d0-939f-f470dd8818d8-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1556545245421" stop="1556545247305" status="passed">
+                    <name>When I send message using 0 data</name>
+                    <title>When I send message using 0 data</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556545247305" stop="1556545248151" status="passed">
+                    <name>Then I see expected confirmation</name>
+                    <title>Then I see expected confirmation</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Send messages from messages.xml"/>
+                <label name="feature" value="Test mail.ru mail"/>
+                <label name="host" value="LAPTOP-O1540MOJ"/>
+                <label name="thread" value="19504@LAPTOP-O1540MOJ.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1556545248823" stop="1556545262499" status="passed">
+            <name>Send messages from messages.xml</name>
+            <title>Send messages from messages.xml</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1556545248836" stop="1556545252805" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556545252805" stop="1556545253372" status="passed">
+                    <name>When I login as user with login "syermolinskaya" and password "ytdthjznyjtbpj,htntybt"</name>
+                    <title>When I login as user with login "syermolinskaya" and password "ytdthjznyjtbpj,htntybt"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556545253373" stop="1556545258639" status="passed">
+                    <name>Then I see expected element with xpath ".//a[@id='PH_logoutLink']"</name>
+                    <title>Then I see expected element with xpath ".//a[@id='PH_logoutLink']"</title>
+                    <attachments>
+                        <attachment title="Attachment Screenshot" source="0043b3ef-6081-467c-bc04-98b5059ad3ba-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1556545258640" stop="1556545261079" status="passed">
+                    <name>When I send message using 1 data</name>
+                    <title>When I send message using 1 data</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556545261079" stop="1556545261831" status="passed">
+                    <name>Then I see expected confirmation</name>
+                    <title>Then I see expected confirmation</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Send messages from messages.xml"/>
+                <label name="feature" value="Test mail.ru mail"/>
+                <label name="host" value="LAPTOP-O1540MOJ"/>
+                <label name="thread" value="19504@LAPTOP-O1540MOJ.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Test mail.ru mail"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

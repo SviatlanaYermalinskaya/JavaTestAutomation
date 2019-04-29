@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messages
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="messages.xsd">
+    <message>      
+      <to>esalana@tut.by</to>
+      <subject>Test 1</subject>
+      <msgbody>It's a test message!</msgbody>      
+    </message>   
+    <message>      
+      <to>orimailrb@gmail.com, esalana@tut.by, lanalex@tut.by</to>
+      <subject>Test 2</subject>
+      <msgbody>Hello!</msgbody>      
+    </message>  
+</messages>

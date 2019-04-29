@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1556545262534" stop="1556545263575" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Test VK API</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1556545262535" stop="1556545263575" status="passed">
+            <name>Add, edit and delete post</name>
+            <title>Add, edit and delete post</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1556545262535" stop="1556545262543" status="passed">
+                    <name>Given I get posts from "posts.xml"</name>
+                    <title>Given I get posts from "posts.xml"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556545262543" stop="1556545263021" status="passed">
+                    <name>When I send post</name>
+                    <title>When I send post</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556545263021" stop="1556545263078" status="passed">
+                    <name>Then I check posted message</name>
+                    <title>Then I check posted message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556545263078" stop="1556545263389" status="passed">
+                    <name>When I edit post</name>
+                    <title>When I edit post</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556545263389" stop="1556545263458" status="passed">
+                    <name>Then I check posted message</name>
+                    <title>Then I check posted message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556545263458" stop="1556545263529" status="passed">
+                    <name>When I delete message</name>
+                    <title>When I delete message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556545263529" stop="1556545263574" status="passed">
+                    <name>Then I check post deletion</name>
+                    <title>Then I check post deletion</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Add, edit and delete post"/>
+                <label name="feature" value="Test VK API"/>
+                <label name="host" value="LAPTOP-O1540MOJ"/>
+                <label name="thread" value="19504@LAPTOP-O1540MOJ.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Test VK API"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

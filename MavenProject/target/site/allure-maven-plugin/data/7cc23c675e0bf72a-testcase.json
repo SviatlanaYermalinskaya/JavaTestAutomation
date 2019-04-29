@@ -1,0 +1,107 @@
+{
+  "uid" : "7cc23c675e0bf72a",
+  "name" : "Test login page",
+  "title" : "Test login page",
+  "time" : {
+    "start" : 1556545193661,
+    "stop" : 1556545198752,
+    "duration" : 5091
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "97cbf1f5c0bbce5e",
+    "name" : "Test mail.ru login",
+    "title" : "Ru login"
+  },
+  "steps" : [ {
+    "name" : "Given I am on main application page",
+    "title" : "Given I am on main application page",
+    "time" : {
+      "start" : 1556545193662,
+      "stop" : 1556545197022,
+      "duration" : 3360
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I login as user with \"6\"",
+    "title" : "When I login as user with \"6\"",
+    "time" : {
+      "start" : 1556545197022,
+      "stop" : 1556545197593,
+      "duration" : 571
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I see expected element",
+    "title" : "Then I see expected element",
+    "time" : {
+      "start" : 1556545197594,
+      "stop" : 1556545198126,
+      "duration" : 532
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "9a9d6d94-c9af-487d-9590-c5d343d0e25b-attachment.png",
+      "type" : "image/png",
+      "size" : 470837,
+      "uid" : "7a8fa209a9d7b4b0"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test mail.ru login"
+  }, {
+    "name" : "story",
+    "value" : "Test login page"
+  }, {
+    "name" : "feature",
+    "value" : "Test mail.ru login"
+  }, {
+    "name" : "thread",
+    "value" : "19504@LAPTOP-O1540MOJ.main(1)"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-O1540MOJ"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}

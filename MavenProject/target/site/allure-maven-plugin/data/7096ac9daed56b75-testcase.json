@@ -1,0 +1,137 @@
+{
+  "uid" : "7096ac9daed56b75",
+  "name" : "Send messages from messages.xml",
+  "title" : "Send messages from messages.xml",
+  "time" : {
+    "start" : 1556545235986,
+    "stop" : 1556545248820,
+    "duration" : 12834
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 5
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "6ef79936fb212db6",
+    "name" : "Test mail.ru mail",
+    "title" : "Ru mail"
+  },
+  "steps" : [ {
+    "name" : "Given I am on main application page",
+    "title" : "Given I am on main application page",
+    "time" : {
+      "start" : 1556545236002,
+      "stop" : 1556545239532,
+      "duration" : 3530
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I login as user with login \"syermolinskaya\" and password \"ytdthjznyjtbpj,htntybt\"",
+    "title" : "When I login as user with login \"syermolinskaya\" and password \"ytdthjznyjtbpj,htntybt\"",
+    "time" : {
+      "start" : 1556545239532,
+      "stop" : 1556545240310,
+      "duration" : 778
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I see expected element with xpath \".//a[@id='PH_logoutLink']\"",
+    "title" : "Then I see expected element with xpath \".//a[@id='PH_logoutLink']\"",
+    "time" : {
+      "start" : 1556545240310,
+      "stop" : 1556545245420,
+      "duration" : 5110
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Attachment Screenshot",
+      "source" : "c967aede-0dfa-41d0-939f-f470dd8818d8-attachment.png",
+      "type" : "image/png",
+      "size" : 99609,
+      "uid" : "3d3ea2b102218d7f"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I send message using 0 data",
+    "title" : "When I send message using 0 data",
+    "time" : {
+      "start" : 1556545245421,
+      "stop" : 1556545247305,
+      "duration" : 1884
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I see expected confirmation",
+    "title" : "Then I see expected confirmation",
+    "time" : {
+      "start" : 1556545247305,
+      "stop" : 1556545248151,
+      "duration" : 846
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "19504@LAPTOP-O1540MOJ.main(1)"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-O1540MOJ"
+  }, {
+    "name" : "feature",
+    "value" : "Test mail.ru mail"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "story",
+    "value" : "Send messages from messages.xml"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test mail.ru mail"
+  } ],
+  "parameters" : [ ]
+}

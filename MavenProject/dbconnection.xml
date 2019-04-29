@@ -1,0 +1,7 @@
+<dbconnections>
+    <dbconnection>      
+      <url>jdbc:mysql://localhost:3306/testautomation?useSSL=false&amp;serverTimezone=UTC</url>
+      <user>root</user>
+      <dbpassword>,tcrjytxyjcnm8</dbpassword>          
+    </dbconnection>  
+</dbconnections>
